@@ -1,10 +1,10 @@
 ---
-
-- hosts: all
+- name : cualquiera
+  hosts: all
   remote_user: root
 
 task:
--name: test connection
-ping: 
-remote_user: root
+  - name: test connection
+    ping: 
+    remote_user: root
     
