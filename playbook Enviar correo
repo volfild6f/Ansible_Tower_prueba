@@ -12,5 +12,4 @@
         body: System has been successfully provisioned.
      delegate_to: localhost
 
-cuando se utiliza tower ansible se debe de instalar de esta manera el community.general
-ansible-galaxy collection install community.general -p /usr/share/ansible/collections
+
